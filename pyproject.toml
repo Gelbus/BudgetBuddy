@@ -3,4 +3,7 @@ name = "budgetbuddy"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "aiogram>=3.22.0",
+    "psycopg[binary]>=3.2.9",
+]
